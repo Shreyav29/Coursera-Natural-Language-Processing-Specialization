@@ -3,7 +3,7 @@
 
 ## Supervised Machine Learning
 
-<img src= "Plots/1.png"  width = '600'>
+<img src= "Plots/1.png"  width = '500'>
 
 
 ## Logistic Regression 
@@ -13,7 +13,7 @@ For Logistic regression F is sigmoid function which outputs 0-1 value
 <p float="left">
   <img src="Plots/2.png" width="400" />
   
-  <img src="Plots/3.png" width="300" /> 
+  <img src="Plots/3.png" width="400" /> 
 </p>
 
 
@@ -24,7 +24,7 @@ We initialize random parameters theta and then iteratively update the values by 
 <p float="left">
   <img src="Plots/4.png" width="400" />
   
-  <img src="Plots/5.png" width="400" /> 
+  <img src="Plots/5.png" width="350" /> 
 </p>
 
 **Model Prediction and Metrics** 
@@ -70,9 +70,6 @@ SImilarly in the second graph, when label is 0 and prediction is 0, loss is low.
 3) Then you calculate the loss using y predict and y label 
 4) Then you calculate the gradient(derivative of cost wrt to weights)  and update the weights (with some learning rate) 
 5) Repeat till loss is not changing for multiple iterations 
-
-
-
 
 
 

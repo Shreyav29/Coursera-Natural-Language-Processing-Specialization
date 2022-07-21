@@ -12,7 +12,8 @@ For Logistic regression F is sigmoid function which outputs 0-1 value
 
 <p float="left">
   <img src="Plots/2.png" width="400" />
-  <img src="Plots/3.png" width="400" /> 
+  
+  <img src="Plots/3.png" width="300" /> 
 </p>
 
 
@@ -22,6 +23,7 @@ We initialize random parameters theta and then iteratively update the values by 
 
 <p float="left">
   <img src="Plots/4.png" width="400" />
+  
   <img src="Plots/5.png" width="400" /> 
 </p>
 
@@ -51,6 +53,7 @@ Cost Function
 
 <p float="left">
   <img src="Plots/9.png" width="400" />
+  
   <img src="Plots/10.png" width="400" /> 
 </p>
 

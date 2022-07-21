@@ -44,9 +44,13 @@ Cost Function
 <img src= "Plots/8.png"  width = '600'>
 
 m = number of training samples
+
 -ve sign is to make overall cost a positive number 
+
 first term = label * log ( prediction of logistic function ) - cost goes up when p=label is 1 and pred is close to 0 
+
 second term = ( 1- label ) * log ( 1- prediction) - cost will blow up when label is 0 and we predict close to 1
+
 When the label is 1 , the first term is important and when the label is 0, the second term is important. 
 
 <p float="left">

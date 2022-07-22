@@ -32,4 +32,17 @@
 **Preprocess the tweet -> Lookup for the word in the LL dictionary. -> If the words dont exist , make their lambda 0 -> if word exists, add those lambdas to the log prior = Score**
 
             TWEET HAS POSITIVE SENTIMENT : LOG PRIOR + Log Likelihood) Score  > 0
+            
+            
+            
+## Applications 
+1) Author identification 
+2) Spam Identification - to know if a new email is spam or not. 
+
+**Score = P(spam/email) / P(not spam/email)**
+
+3) Filtering relevant and irrelevant documents 
+4) Word disambiguation - to get contextual clarity - a word like ‘bank’ is used in money context or river context. But here bank needs to have only 2 contexts. 
+
+**Score = P(river/text) / P(money/text) **
 

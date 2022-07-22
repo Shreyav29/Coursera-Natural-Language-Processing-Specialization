@@ -21,14 +21,14 @@
 5) Calculate the log prior. ( no positive tweets/no neg tweets ) This is 0 in a balanced dataset but if the dataset is imbalance, this can be very important. 
 
 <p float="left">
-  <img src="Plots/3.png" width="300" />
+  <img src="Plots/3.png" width="400" />
   
-  <img src="Plots/4.png" width="400" /> 
+  <img src="Plots/4.png" width="250" /> 
 </p>
 
 
 Now to test the model on a unseen test tweet dataset : 
 Preprocess the tweet -> Lookup for the word in the LL dictionary. -> If the words dont exist , make their lambda 0 -> if word exists, add those lambdas to the log prior = Score
 
-**TWEET HAS POSITIVE SENTIMENT : LOG PRIOR + Log Likelihood) Score  > 0**
+            **TWEET HAS POSITIVE SENTIMENT : LOG PRIOR + Log Likelihood) Score  > 0**
 

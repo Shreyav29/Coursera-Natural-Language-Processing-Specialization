@@ -5,7 +5,7 @@
 
 1) We have a corpus of tweets with positive and negative labels. Do the required text pre-processing. 
 
-        **Lower case -> Remove punctuation, urls , stop words -> Tokenizing -> Stemming**
+        #### Lower case -> Remove punctuation, urls , stop words -> Tokenizing -> Stemming
 
 2) Now we have a clean corpus. Now create a vocabulary of all words in the tweets and two columns pos and neg which add up the number of times each word occurred in pos and neg tweet. 
 

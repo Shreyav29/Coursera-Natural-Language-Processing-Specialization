@@ -29,7 +29,7 @@
 
 6) Now to test the model on a unseen test tweet dataset : 
 
-**Preprocess the tweet -> Lookup for the word in the LL dictionary. -> If the words dont exist , make their lambda 0 -> if word exists, add those lambdas to the log prior = Score
+**Preprocess the tweet -> Lookup for the word in the LL dictionary. -> If the words dont exist , make their lambda 0 -> if word exists, add those lambdas to the log prior = Score**
 
             TWEET HAS POSITIVE SENTIMENT : LOG PRIOR + Log Likelihood) Score  > 0
 

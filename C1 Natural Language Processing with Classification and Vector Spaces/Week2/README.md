@@ -33,8 +33,7 @@
 
             TWEET HAS POSITIVE SENTIMENT : LOG PRIOR + Log Likelihood) Score  > 0
             
-            
-            
+
 ## Applications 
 1) Author identification 
 2) Spam Identification - to know if a new email is spam or not. 
@@ -46,3 +45,15 @@
 
                 Score = P(river/text) / P(money/text)
 
+## Assumptions
+1) Independence between predicting features. But words in the same sentence can be related. This could lead to under or over estimate the probabilities 
+2) It relies too much on the distribution of the training dataset. Data might be imbalance and this would affect the NB algorithm a lot
+
+
+## Reasons for errors in the NLP model 
+1) Semantic meaning lost due to the pre-processing steps : Sometimes if we remove the punctuation like smilies , it could change the entire meaning. Or 
+2) Word order can affect meaning - if we remove ‘not’ from a tweet , it can change the meaning. 
+3) Adversarial Attack : Language quirks that ML does not understand - Sarcasm , irony and euphemisms are tough to interpret. 
+
+
+- So far, we have used word frequencies and hence we are facing some issues, but if we use word vectors, some of the issues will be sorted

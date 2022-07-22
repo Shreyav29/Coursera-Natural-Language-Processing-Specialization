@@ -9,7 +9,7 @@
 
 2) Now we have a clean corpus. Now create a vocabulary of all words in the tweets and two columns pos and neg which add up the number of times each word occurred in pos and neg tweet. 
 
-<img src= "Plots/1.png"  width = '600'>
+<img src= "Plots/1.png"  width = '450'>
 
 
 3) Calculate the conditional probabilities of each word using the laplacian smoothing formula. 

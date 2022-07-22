@@ -51,7 +51,7 @@
 
 
 ## Reasons for errors in the NLP model 
-1) Semantic meaning lost due to the pre-processing steps : Sometimes if we remove the punctuation like smilies , it could change the entire meaning. Or 
+1) Semantic meaning lost due to the pre-processing steps : Sometimes if we remove the punctuation like smilies , it could change the entire meaning. 
 2) Word order can affect meaning - if we remove ‘not’ from a tweet , it can change the meaning. 
 3) Adversarial Attack : Language quirks that ML does not understand - Sarcasm , irony and euphemisms are tough to interpret. 
 

@@ -13,12 +13,14 @@
 
 
 3) Calculate the conditional probabilities of each word using the laplacian smoothing formula. 
+- PS : **Laplacian smoothening** is used instead of simple division to avoid the situation where a probability is 0. (prob of w1 coming after w0 can be 0 if we never saw it in the training dataset) 
 
 <img src= "Plots/2.png"  width = '500'>
 
 
 4) Calculate the log of the ratio of conditional probabilities to get the lambda values 
 5) Calculate the log prior. ( no positive tweets/no neg tweets ) This is 0 in a balanced dataset but if the dataset is imbalance, this can be very important. 
+PS : **Log Likelihood** : Here we apply log on both sides of the equation because simple multiplication can make the probabilities really small and insignificant. 
 
 <p float="left">
   <img src="Plots/3.png" width="300" />
@@ -31,10 +33,10 @@
 
 **Preprocess the tweet -> Lookup for the word in the LL dictionary. -> If the words dont exist , make their lambda 0 -> if word exists, add those lambdas to the log prior = Score**
 
-            TWEET HAS POSITIVE SENTIMENT : LOG PRIOR + Log Likelihood) Score  > 0
+            TWEET HAS POSITIVE SENTIMENT : LOG PRIOR + Log Likelihood) Score  > 0 
             
 
-## Applications 
+## Applications of Naive Bayes Algorithm
 1) Author identification 
 2) Spam Identification - to know if a new email is spam or not. 
 
@@ -45,7 +47,7 @@
 
                 Score = P(river/text) / P(money/text)
 
-## Assumptions
+## Assumptions used in Naive Bayes
 1) Independence between predicting features. But words in the same sentence can be related. This could lead to under or over estimate the probabilities 
 2) It relies too much on the distribution of the training dataset. Data might be imbalance and this would affect the NB algorithm a lot
 

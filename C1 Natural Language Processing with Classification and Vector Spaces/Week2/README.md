@@ -4,14 +4,14 @@
 ## Bayes Theorem 
 
 <p float="left">
-  <img src="Plots/555.png" width="300" />
+  <img src="Plots/555.png" width="400" />
   
-  <img src="Plots/666.png" width="150" /> 
+  <img src="Plots/666.png" width="300" /> 
 </p>
 
 ## Naive Bayes for sentiment analysis 
 
-<img src= "Plots/777.png"  width = '450'>
+<img src= "Plots/777.png"  width = '350'>
 
 
 ## Training Naive Bayes Model 

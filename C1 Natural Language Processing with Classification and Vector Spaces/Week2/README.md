@@ -1,6 +1,19 @@
 
 # Naive Bayes for Sentiment Prediction
 
+## Bayes Theorem 
+
+<p float="left">
+  <img src="Plots/5.png" width="300" />
+  
+  <img src="Plots/6.png" width="150" /> 
+</p>
+
+## Naive Bayes for sentiment analysis 
+
+<img src= "Plots/7.png"  width = '450'>
+
+
 ## Training Naive Bayes Model 
 
 1) We have a corpus of tweets with positive and negative labels. Do the required text pre-processing. 

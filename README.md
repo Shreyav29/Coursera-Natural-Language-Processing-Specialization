@@ -8,7 +8,7 @@
 - Twitter Sentiment Analysis using Logistic Regression 
 - Text data processing (Tokenization , Stemming , Lemmitization ) 
 
-### Sentiment Analysis with Naive Bayes : [Link](https://communitybankingconnections.org/articles/2013/Q2/Home-Equity-Lending-A-HELOC-Hangover-Helper)
+### Sentiment Analysis with Naive Bayes : [Link](C1 Natural Language Processing with Classification and Vector Spaces/Week2/README.md)
 
 - Bayes Theorem 
 - Twitter Sentiment Analysis using Naive Bayes (Laplasian Smoothening , Log likelihood) 

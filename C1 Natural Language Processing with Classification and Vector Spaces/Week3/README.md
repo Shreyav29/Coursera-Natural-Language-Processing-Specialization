@@ -44,6 +44,15 @@ We can see that the economy and ML are similar. This is a 3 dimensional vector s
 <img src= "Plots/5.png"  width = '550'>
 
 
+## Cosine Similarity Score 
+
+<p float="left">
+  <img src="Plots/6.png" width="500" />
+  
+  <img src="Plots/7.png" width="420" /> 
+</p>
+
+
 
 
 

@@ -3,7 +3,7 @@
 
 So far we have used only frequency of words. They help to represent words and documents as vectors to capture the relative meaning. 
 
-**Why do we need it ?** 
+**Why do we need it ? Where do we use it ?** 
 
 Similar sentences can mean different things and different sentences can have the same meanings. In such cases vector space models can help us identify if both the sentences mean the same irrespective of the words in them.(Find similarity) 
 - Question answering 

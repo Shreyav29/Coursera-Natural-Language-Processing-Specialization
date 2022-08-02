@@ -9,8 +9,9 @@ Similar sentences can mean different things and different sentences can have the
 - Question answering 
 - Paraphrasing
 - Summarizing 
-They can also be used to capture dependencies between words in a sentence. They are helpful in answering questions with who? what? how? questions 
-information extraction 
+
+They can also be used to capture dependencies between words in a sentence. They are helpful in answering questions with "who? what? how?" questions 
+information extraction. 
 - Machine translation 
 - Chatbot programming 
 

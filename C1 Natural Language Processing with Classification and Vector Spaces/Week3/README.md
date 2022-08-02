@@ -32,18 +32,15 @@ We can see that the economy and ML are similar. This is a 3 dimensional vector s
 
 ## Similarity 
 
+<img src= "Plots/3.png"  width = '550'>
+
 **Euclidean Distance** : Length of straight line connecting the vectors. 
 
 <img src= "Plots/4.png"  width = '550'>
 
 **Cosine Similarity** : Unlike Euclidian distance, this is independent of the size of the corpuses like euclidian distance. Eg. Food and Agriculture corpus are similar but euclidian says they are apart. 
 
-<p float="left">
-  <img src="Plots/3.png" width="500" />
-  
-  <img src="Plots/5.png" width="500" /> 
-</p>
-
+<img src= "Plots/5.png"  width = '550'>
 
 
 

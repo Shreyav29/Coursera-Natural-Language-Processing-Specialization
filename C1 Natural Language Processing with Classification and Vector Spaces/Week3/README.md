@@ -27,10 +27,11 @@ K = Bandwidth
   <img src="Plots/2.png" width="420" /> 
 </p>
 
-We can see that the economy and ML are similar. This is a 3 dimensional vector space. 
 
 
 ## Similarity 
+
+We can see that the economy and ML are similar. This is a 3 dimensional vector space. 
 
 <img src= "Plots/3.png"  width = '550'>
 

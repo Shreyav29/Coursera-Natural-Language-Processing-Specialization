@@ -22,7 +22,7 @@ K = Bandwidth
 <p float="left">
   <img src="Plots/1.png" width="500" />
   
-  <img src="Plots/2.png" width="400" /> 
+  <img src="Plots/2.png" width="420" /> 
 </p>
 
 We can see that the economy and ML are similar. This is a 3 dimensional vector space. 

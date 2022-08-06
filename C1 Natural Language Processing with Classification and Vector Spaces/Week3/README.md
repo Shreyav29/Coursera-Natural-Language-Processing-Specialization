@@ -54,5 +54,28 @@ We can see that the economy and ML are similar. This is a 3 dimensional vector s
 
 
 
+## Principal Component Analysis 
+As we saw, we are working in a 300-dimensional space in this case. Although from a computational perspective we were able to perform a good job, it is impossible to visualize results in such high dimensional spaces.
+
+- We need to reduce the dimensions of vectors so that we can easily visualize. We use PCA for this dimensionality reduction
+
+<img src= "Plots/8.png"  width = '550'>
+
+### Eigen values and Eigen vectors 
+STEP 1) Get the uncorrelated features (Eigenvectors - give direction of these features)
+
+<img src= "Plots/9.png"  width = '550'>
+
+STEP 2) Project the data onto a reduced number of dimensions by retaining as much information as possible (Eigenvalues- variance of the new features/info retailed in each feature) 
+
+- If we want n dimensional PCA : use the first n columns of vector U, to get your new data by multiplying XU[:, 0:n]
+
+<img src= "Plots/10.png"  width = '550'>
+
+
+
+
+
+
 
 

@@ -54,3 +54,10 @@ Here we want to bucket based on relative distance.
 - A collection of all these points is a subset of words which might be the nearest ones to the computed french vector. 
 
 
+# Using KNN for Document Search 
+- Represent the document as a vector (By adding the word embedding vectors for each of the word in the document) 
+- Apply Approximate Nearest Neighbors to all document vectors to find the similar ones. 
+
+
+
+

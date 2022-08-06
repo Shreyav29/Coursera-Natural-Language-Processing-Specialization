@@ -21,7 +21,7 @@ STEP3)  Then convert the french word vector to actual french word
 <p float="left">
   <img src="Plots/2.png" width="400" />
   
-  <img src="Plots/3.png" width="300" /> 
+  <img src="Plots/3.png" width="100" /> 
 </p>
 
 ## Approximate nearest neighbors

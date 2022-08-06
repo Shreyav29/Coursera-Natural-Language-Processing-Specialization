@@ -33,10 +33,14 @@ This algorithm does not give the exact nearest neighbor but gives us a subset wh
 
 ## Hash Function and Hash tables
 
+In general to bucket similar words, we use hash functions. We define a hash function and make each vector pass through the function. Based on the result the vectors are bucketed. But in this case, we want to do a distance based hashing. 
+
 <img src= "Plots/5.png"  width = '350'>
 
 
 ## Locality Sensitive Hashing 
+
+Here we want to bucket based on relative distance. 
 
 <p float="left">
   <img src= "Plots/6.png"  width = '350'/>
@@ -44,5 +48,9 @@ This algorithm does not give the exact nearest neighbor but gives us a subset wh
   <img src="Plots/111.png" width="200" /> 
 </p>
 
+**Methodology for Approximate Nearest Neighbors using Locality Sensitivity Hashing** 
+- We divide the vector space using some planes and we get the dot product of each vector wrt each plane and based on the results we know which points lie in which region. 
+- We repeat the process with different set of planes and each iteration gives us some points. 
+- A collection of all these points is a subset of words which might be the nearest ones to the computed french vector. 
 
 

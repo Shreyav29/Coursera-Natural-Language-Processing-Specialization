@@ -4,9 +4,9 @@
 - Document Search - Given a document, we can search for similar documents using NLP. 
 
 ## How to do Machine Translation
-- Get an extensive list of word embeddings associated with english and french. 
-- Get the word embedding of your word in english and convert to the french word vector space by multiplying with a transformation matrix.  
-- Then convert the french word vector to actual french word 
+STEP1)  Get an extensive list of word embeddings associated with english and french. 
+STEP2)  Get the word embedding of your word in english and convert to the french word vector space by multiplying with a transformation matrix.  
+STEP3)  Then convert the french word vector to actual french word 
 
 <img src= "Plots/1.png"  width = '550'>
 

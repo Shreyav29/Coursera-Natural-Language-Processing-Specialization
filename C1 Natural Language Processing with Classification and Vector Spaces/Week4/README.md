@@ -37,14 +37,10 @@ Once we get the right R matrix and convert the english vector to french vector, 
 
 ## Locality Sensitive Hashing 
 
-
-<img src= "Plots/6.png"  width = '350'>
-
 <p float="left">
   <img src= "Plots/6.png"  width = '350'/>
   <img src="Plots/7.png" width="400" />
-  
-  <img src="Plots/111.png" width="300" /> 
+  <img src="Plots/111.png" width="200" /> 
 </p>
 
 
